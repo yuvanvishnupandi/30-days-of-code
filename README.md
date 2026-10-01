@@ -1,64 +1,143 @@
-# 30 Days of Code Challenge
+# 30 Days of Code
 
-Welcome to my 30 Days of Code Challenge (HackerRank) repository! This repository contains solutions for each day’s coding challenge from the HackerRank 30 Days of Code series.
+Solutions to the [HackerRank 30 Days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code) challenge.
 
+A collection of solutions covering fundamental programming concepts,
+data structures, algorithms, and object-oriented programming, written
+primarily in **Python** with some solutions in **C++**.
 
-## Table of Contents
-- Day 0: Hello, World.
-- Day 1: Data Types
-- Day 2: Operators
-- Day 3: Intro to Conditional Statements
-- Day 4: Class vs. Instance
-- Day 5: Loops
-- Day 6: Let's Review
-- Day 7: Arrays
-- Day 8: Dictionaries and Maps
-- Day 9: Recursion 3
-- Day 10: Binary Numbers
-- Day 11: 2D Arrays
-- Day 12: Inheritance
-- Day 13: Abstract Classes
-- Day 14: Scope
-- Day 15: Linked List
-- Day 16: Exceptions - String to Integer
-- Day 17: More Exceptions
-- Day 18: Queues and Stacks
-- Day 19: Interfaces
-- Day 20: Sorting
-- Day 21: Generics
-- Day 22: Binary Search Trees
-- Day 23: BST Level-Order Traversal
-- Day 24: More Linked Lists
-- Day 25: Running Time and Complexity
-- Day 26: Nested Logic
-- Day 27: Testing
-- Day 28: RegEx, Patterns, and Intro to Databases
-- Day 29: Bitwise AND
+## Topics
 
+- Data types
+- Operators
+- Conditional statements
+- Classes and instances
+- Loops
+- Arrays
+- Dictionaries and maps
+- Recursion
+- Binary numbers
+- 2D arrays
+- Inheritance
+- Abstract classes
+- Scope
+- Linked lists
+- Exceptions
+- Queues and stacks
+- Interfaces
+- Sorting
+- Generics
+- Binary search trees
+- Tree traversal
+- Running time and complexity
+- Nested logic
+- Testing
+- Regular expressions
+- Databases
+- Bitwise operations
 
-## Challenge Details
+## Structure
 
-I’m working through the HackerRank 30 Days of Code series, which is designed to improve my problem-solving skills. These challenges range from basic concepts like data types and loops to more advanced topics like recursion, binary search trees, and regular expressions.
+Solutions are organized by challenge and named according to the
+corresponding topic and day.
 
-### Problem Breakdown
+```text
+30-days-of-code/
+├── print_day_0.py
+├── data_types_day_1.py
+├── operators_day_2.py
+├── conditional_statements_day_3.py
+├── class_instance_day_4.py
+├── loops_day_5.py
+├── slicing_day_6.py
+├── arrays_day_7.py
+├── dictionaries_and_maps_day_8.py
+├── recursion_day_9.py
+├── binary_num_day_10.py
+├── 2D_array_day_11.py
+├── inheritance_day_12.py
+├── abstract_classes_day_13.py
+├── scope_day14.py
+├── linkedlist_day_15.py
+├── exceptions_day16.py
+├── exceptionsmore_day17.py
+├── quesandstacks_day18.py
+├── interfaces_day19.py
+├── sorting_day20.py
+├── generics_day21.py
+├── binarytree_day22.py
+├── bst_day23.py
+├── binarytree_day24.cpp
+├── runningtimecompday25.cpp
+├── nestedlogicday26.cpp
+├── testing_day27.cpp
+├── regexpattern_day28
+└── ...
+```
 
-Each day, I work on solving a new problem, and after completing it, I update my GitHub repository with the solution. The problems cover a wide range of topics such as:
+The repository contains both `.py` and `.cpp` implementations, rather
+than restricting the challenge to a single language. The filenames above
+reflect the current repository structure. :contentReference[oaicite:2]{index=2}
 
-- Data structures (arrays, linked lists, trees)
-- Algorithms (sorting, searching, dynamic programming)
-- Object-oriented programming (classes, inheritance)
-- Problem-solving techniques (greedy algorithms, recursion, etc.)
+## Running
 
-## Navigate
+### Python
 
-Each challenge will be added as a new file in the format `dayX.py`. You can check out each day’s code by opening the respective file in the folder for that day's challenge.
+Run a Python solution directly:
 
-## Contribute
+```bash
+python3 <file>.py
+```
 
-If you would like to contribute to this repository, feel free to fork it and submit a pull request with your solutions or improvements.
+For example:
 
-## Conclusion
+```bash
+python3 arrays_day_7.py
+```
 
-This repository is a way for me to track my progress and demonstrate my skills. I’m excited to continue learning and advancing through the 30 Days of Code series.
-Let’s code together! 🚀
+### C++
 
+Compile and run a C++ solution:
+
+```bash
+g++ <file>.cpp -o solution
+./solution
+```
+
+For example:
+
+```bash
+g++ binarytree_day24.cpp -o solution
+./solution
+```
+
+## Environment
+
+```text
+Python
+C++
+Git
+GitHub
+```
+
+## Notes
+
+The solutions are kept as individual programs so that each challenge can
+be read, compiled, and executed independently.
+
+Python is used for most of the repository, with C++ implementations also
+included for several of the later problems. :contentReference[oaicite:3]{index=3}
+
+This repository is primarily a record of working through the HackerRank
+30 Days of Code challenge while practicing programming fundamentals,
+data structures, algorithms, and object-oriented programming.
+
+## HackerRank
+
+[HackerRank 30 Days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code)
+
+---
+
+## License
+
+MIT
